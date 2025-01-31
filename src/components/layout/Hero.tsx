@@ -19,30 +19,33 @@ const Hero = () => {
           </p>
           
           <div className="flex gap-6 mb-8">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Facebook size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Twitter size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Instagram size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Youtube size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Music2 size={24} />
             </a>
           </div>
           
           <div className="flex items-center gap-4">
-            <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
+            <Button 
+              variant="outline" 
+              className="text-white border-white hover:bg-white hover:text-black transition-colors"
+            >
               Fan Link
             </Button>
             <img 
-              src="/lovable-uploads/e244178e-b7aa-4d01-b99e-43d283d1d998.png" 
-              alt="Spotify" 
+              src="/lovable-uploads/2220e99b-2f44-4ac2-8050-d608f7c648fe.png" 
+              alt="Hero" 
               className="h-10 w-10"
             />
           </div>

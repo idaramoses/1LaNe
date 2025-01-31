@@ -9,7 +9,10 @@ const ServiceCard = ({ image, title, description }: {
     <img src={image} alt={title} className="w-full h-48 object-cover mb-6 rounded-lg" />
     <h3 className="text-xl font-bold mb-4">{title}</h3>
     <p className="text-gray-400 mb-6">{description}</p>
-    <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
+    <Button 
+      variant="outline" 
+      className="text-white border-white hover:bg-white hover:text-black transition-colors"
+    >
       Join Community
     </Button>
   </div>
