@@ -1,36 +1,59 @@
+import { Button } from "@/components/ui/button";
+import { Facebook, Twitter, Instagram, Youtube, Music2 } from "lucide-react";
+
 const Hero = () => {
   return (
-    <section className="bg-sidebar text-white py-20">
-      <div className="container mx-auto px-4">
-        <h1 className="text-5xl font-bold mb-6">
-          <span className="text-gray-400">1 Lift</span>{" "}
-          <span className="text-white">artists</span> 'N' empower
-        </h1>
-        
+    <section className="bg-[#222222] min-h-screen relative overflow-hidden">
+      <div className="container mx-auto px-4 pt-20">
         <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold mb-4">Zichy</h2>
-          <p className="text-gray-300 mb-8">
+          <h1 className="text-5xl font-bold mb-6">
+            <span className="text-gray-400">1 Lift</span>{" "}
+            <span className="text-white">artists</span> 'N' empower
+          </h1>
+          
+          <h2 className="text-5xl font-bold text-white mb-4">Zichy</h2>
+          <p className="text-gray-300 mb-8 max-w-lg">
             After careful consideration and review of all applications, we regret to inform 
-            you that we have decided to move forward with other candidates whose qualifications 
-            more closely align with our current needs for the role.
+            you that we have decided to move forward with other candidates whose 
+            qualifications more closely align with our current needs for the role.
           </p>
           
-          <div className="grid grid-cols-2 gap-4 mb-8">
-            <div className="grid grid-cols-2 gap-4">
-              <img src="https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/9b9c72abb2984def96b15e5df29aa21df68cf7c3065056dffc67616262454ee1?placeholderIfAbsent=true" alt="" className="w-full h-auto" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/12e71d0990c8cd81726a76a55d93637953ea302f9846bdafa4bdd1af50508c50?placeholderIfAbsent=true" alt="" className="w-full h-auto" />
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <img src="https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/0af8b5b0d2b26da054374ce0e7b4c780e4f3b2b05bd0fef5d5ea31558488e0de?placeholderIfAbsent=true" alt="" className="w-full h-auto" />
-              <img src="https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/239b7422998b1bf38fcae7ee36da86d8f968423550b2945c0d5d5868ec8a2fdb?placeholderIfAbsent=true" alt="" className="w-full h-auto" />
-            </div>
+          <div className="flex gap-6 mb-8">
+            <a href="#" className="text-gray-400 hover:text-white">
+              <Facebook size={24} />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white">
+              <Twitter size={24} />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white">
+              <Instagram size={24} />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white">
+              <Youtube size={24} />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-white">
+              <Music2 size={24} />
+            </a>
           </div>
           
-          <div className="flex items-center space-x-4">
-            <span className="text-xl font-bold">Fan Link</span>
-            <img src="https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/924a520d2ecd4a249b6d608543649168/18e900990159edcbc113e2cdadf8855bb0566247631fe84df9b7fe3f75349d2b?placeholderIfAbsent=true" alt="Fan Link" className="h-8" />
+          <div className="flex items-center gap-4">
+            <Button variant="outline" className="text-white border-white hover:bg-white hover:text-black">
+              Fan Link
+            </Button>
+            <img 
+              src="/lovable-uploads/e244178e-b7aa-4d01-b99e-43d283d1d998.png" 
+              alt="Spotify" 
+              className="h-10 w-10"
+            />
           </div>
         </div>
+      </div>
+      
+      <div className="absolute bottom-0 left-0 w-full flex gap-2 p-4">
+        <div className="h-1 w-16 bg-white rounded"></div>
+        <div className="h-1 w-4 bg-gray-600 rounded"></div>
+        <div className="h-1 w-4 bg-gray-600 rounded"></div>
+        <div className="h-1 w-4 bg-gray-600 rounded"></div>
       </div>
     </section>
   );
