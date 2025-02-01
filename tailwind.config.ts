@@ -10,14 +10,21 @@ export default {
 	],
 	prefix: "",
 	theme: {
-		container: {
-			center: true,
-			padding: '2rem',
-			screens: {
-				'2xl': '1400px'
+		screens: {
+			md: {
+				max: '1050px'
+			},
+			xl: {
+				max: '1200px'
+			},
+			sm: {
+				max: '550px'
 			}
 		},
 		extend: {
+			fontFamily: {
+				poppins: ['Poppins', 'sans-serif'],
+			  },
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
