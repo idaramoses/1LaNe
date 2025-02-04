@@ -19,7 +19,7 @@ const Navigationbar = () => {
   return (
     <nav className="relative z-50 font-poppins">
     {/* Main Navigation Bar */}
-    <div className="flex items-center justify-between py-4 md:py-2 border-b border-[#333333] px-16 md:px-4">
+    <div className="flex items-center justify-between py-4 md:py-2 b px-16 md:px-4 bg-black bg-opacity-70">
       <div className="flex items-center">
         <img  src="/images/1LaNe.svg" alt="Mezyn Logo" className="" />
       </div>
@@ -80,7 +80,7 @@ const Navigationbar = () => {
         </div>
 
        
-        <button  onClick={() => setIsMobileMenuOpen(false)} className="bg-[#4D61FC] text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors">
+        <button  onClick={() => setIsMobileMenuOpen(false)} className="bg-[#4D61FC] text-white px-6 py-2 rounded-lg hover:bg-orange-600 transition-colors mt-10">
         Submit Songs
         </button>
         {/* <div className="mt-12 border-t border-gray-800 pt-8">

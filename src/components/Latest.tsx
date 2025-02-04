@@ -6,32 +6,32 @@ const Latestest = () => {
  // State to control mobile menu visibility
 
   return (
-    <div className="relative z-50 font-poppins">
+    <div className="relative z-50 font-poppins bg-[#0e0e0e] h-[800px] md:h-fit flex items-center">
           {/* Latest Section */}
-          <section className="py-8 relative mb-16 mx-20 md:mx-4 items-center flex flex-col ">
+          <section className="py-8 relative mb-16 mx-20 md:mx-4 md:items-center flex flex-col ">
           <h2 className="text-4xl md:text-xl  mb-12 bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
             The Latest
           </h2>
           
           {/* Decorative CD */}
-          {/* <img src="/images/lastest-bg.svg" alt="Music Artist" className="absolute  top-1/2 right-auto translate-x-1/2 -translate-y-1/2  w-[600px] h-[600px]" /> */}
+          <img src="/images/lastest-bg.svg" alt="Music Artist" className="absolute  top-1/2 right-auto translate-x-1/2 -translate-y-1/2  w-[600px] h-[600px] md:hidden" />
           
           {/* Grid */}
           <div className="grid grid-cols-3 md:grid-cols-1 gap-8 md:gap-0 relative z-10">
             <div className="group relative overflow-hidden rounded-lg md:rounded-none cursor-pointer h-[359px] " data-aos="fade-left" data-aos-delay="300">
-              <img src="/images/music.svg" alt="Music Artist" className="w-full h-full object-cover" />
+              <img src="/images/Wizkid.jpg" alt="Music Artist" className="w-full h-full object-cover object-top" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
               <span className="absolute bottom-4 left-4 text-xl font-bold">Music</span>
             </div>
             
             <div className="group relative overflow-hidden rounded-lg md:rounded-none cursor-pointer h-[359px]" data-aos="fade-down" data-aos-delay="500">
-              <img src="/images/sport.svg" alt="Sports Athlete" className="w-full h-96 object-cover" />
+              <img src="/images/Victor Osimeh.webp" alt="Sports Athlete" className="w-full h-96 object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
               <span className="absolute bottom-4 left-4 text-xl font-bold">Sports</span>
             </div>
             
             <div className="group relative overflow-hidden rounded-lg md:rounded-none cursor-pointer h-[359px]" data-aos="fade-right" data-aos-delay="800">
-              <img src="/images/fashion.svg" alt="Fashion Model" className="w-full h-96 object-cover" />
+              <img src="/images/Fashion.JPEG" alt="Fashion Model" className="w-full h-96 object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
               <span className="absolute bottom-4 left-4 text-xl font-bold">Fashion</span>
             </div>

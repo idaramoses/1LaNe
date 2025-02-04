@@ -14,9 +14,9 @@ export const ShopLanding: React.FC = () => {
   ];
 
   return (
-    <div className="rounded-none px-20 md:px-0  bg-black pb-10 ">
-      <div className="flex gap-5 md:flex-col items-center justify-center">
-        <div className="flex flex-col w-2/5 md:ml-0 md:w-full">
+    <div className="rounded-none px-20 md:px-0  bg-black pb-10 h-screen md:h-fit ">
+      <div className="flex gap-20 md:flex-col items-center justify-center h-full">
+        <div className="flex flex-col w-4/12 md:ml-0 md:w-full">
           <div className="flex flex-col mt-11 w-full text-white md:mt-10 md:max-w-full">
             <div  data-aos="fade-up" data-aos-delay="300" className="leading-[162px] text-[171px]  md:max-w-full md:text-4xl md:leading-10 md:hidden">
               Shop <br />
@@ -42,9 +42,15 @@ export const ShopLanding: React.FC = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col ml-5 w-3/5 md:ml-0 md:w-full">
+        <div className="flex flex-col ml-5 w-4/12 md:ml-0 md:w-full">
           <div className="md:mt-10 md:w-full md:px-4">
-            <ShopImageContainer images={images} />
+          <img
+    data-aos="fade-zoomIn" data-aos-delay="800"
+    loading="lazy"
+    src={'images/1LaNe merchandise.jpg'}
+    alt={'shoping'}
+    className={`object-contain w-[495px] h-[495px] md:w-full `}
+  />
           </div>
         </div>
         <button

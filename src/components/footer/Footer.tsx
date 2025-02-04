@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
 
   return (
     <div className="flex flex-col rounded-none px-20 md:px-0  bg-black  mb-20 md:mb-0 font-poppins">
-      <div className="flex flex-col items-center py-12 px-10 md:px-4 w-full rounded-xl bg-[#15285A] bg-opacity-60 md:w-full">
+      <div className="flex flex-col items-center py-12 px-10 md:px-4 w-full rounded-xl bg-[#081a25] bg-opacity-60 md:w-full">
         <div className="w-full">
           <div className="flex gap-5 md:flex-col">
             <div className="flex flex-col w-[73%] md:ml-0 md:w-full">
