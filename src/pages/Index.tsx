@@ -127,15 +127,15 @@ const Index = () => {
                 alt={slide.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 z-20 flex items-center w-4/12 md:w-full md:items-end md:mb-10 px-20 md:px-4 md:mt-10">
+              <div className="absolute inset-0 z-20 flex items-center w-5/12 md:w-full md:items-end md:mb-10 px-20 md:px-4 md:mt-10">
               <div className="w-full flex flex-col md:justify-center md:items-center ">
-            <h1 className="text-4xl mb-4 md:text-center md:text-2xl" data-aos="fade-down" data-aos-delay="300">{slides[current].title} </h1>
-            <h2 className="text-3xl mb-4 md:text-center md:text-xl " data-aos="fade-up" data-aos-delay="600">{slides[current].subtitle}</h2>
+            <h1 className="text-4xl mb-4 md:text-center md:text-2xl font-semibold" data-aos="fade-down" data-aos-delay="300">{slides[current].title} </h1>
+            <h2 className="text-3xl mb-4 md:text-center md:text-xl mt-16 md:mt-4 " data-aos="fade-up" data-aos-delay="600">{slides[current].subtitle}</h2>
             <p className="text-gray-300 mb-6 md:text-center md:text-sm md:mx-10"  data-aos="fade-left" data-aos-delay="900">{slides[current].description}</p>
              <SocialLinks />
              <div className="mt-4 mb-4 flex flex-row gap-4">
              <div
-          className="gap-3 self-stretch px-6 py-2 rounded-2xl border border-solid border-neutral-500"
+          className="gap-3 self-stretch px-6 py-2 rounded-2xl bg-black/50 text-white flex items-center border"
           role="button"
           tabIndex={0}
         >
