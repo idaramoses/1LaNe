@@ -12,7 +12,7 @@ export const SubscribeForm: React.FC<SubscribeFormProps> = ({ onSubmit }) => {
   return (
     <form onSubmit={handleSubmit} className="flex flex-col">
       <label htmlFor="email" className="text-base leading-7">
-        Subscribe
+      Subscribe to Our Newsletter
       </label>
       <div className="flex flex-col mt-3 w-full text-sm rounded-md max-w-[248px] text-slate-500">
         <div className="flex gap-5 justify-between pl-4 bg-white rounded-md ">
@@ -37,9 +37,7 @@ export const SubscribeForm: React.FC<SubscribeFormProps> = ({ onSubmit }) => {
           </div>
       </div>
       <div className="mt-3 text-xs leading-5 opacity-60">
-        Hello, we are 1Lane. We provide strategic distribution solutions for
-        music and other content, ensuring that our artists' work reaches the
-        widest audience possible across all major platforms.
+      Hello, we are 1LaNe. We provide strategic distribution solutions for music and other content, ensuring that our artists’ work reaches the widest audience possible across all major platforms.
       </div>
     </form>
   );

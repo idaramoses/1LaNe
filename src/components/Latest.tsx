@@ -19,21 +19,21 @@ const Latestest = () => {
           {/* Grid */}
           <div className="grid grid-cols-3 md:grid-cols-1 gap-8 md:gap-0 relative z-10">
             <div className="group relative overflow-hidden rounded-lg md:rounded-none cursor-pointer h-[359px] " data-aos="fade-left" data-aos-delay="300">
-              <img src="/images/Wizkid.jpg" alt="Music Artist" className="w-full h-full object-cover object-top" />
+              <img src="/images/Wizkid.jpg" alt="Music Artist"  className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-125 object-top" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-              <span className="absolute bottom-4 left-4 text-xl font-bold">Music</span>
+              <span className="absolute bottom-4 left-4 text-xl ">Music</span>
             </div>
             
             <div className="group relative overflow-hidden rounded-lg md:rounded-none cursor-pointer h-[359px]" data-aos="fade-down" data-aos-delay="500">
-              <img src="/images/Victor Osimeh.webp" alt="Sports Athlete" className="w-full h-96 object-cover" />
+              <img src="/images/Victor Osimeh.webp" alt="Sports Athlete"             className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-125"    />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-              <span className="absolute bottom-4 left-4 text-xl font-bold">Sports</span>
+              <span className="absolute bottom-4 left-4 text-xl ">Sports</span>
             </div>
             
             <div className="group relative overflow-hidden rounded-lg md:rounded-none cursor-pointer h-[359px]" data-aos="fade-right" data-aos-delay="800">
-              <img src="/images/Fashion.JPEG" alt="Fashion Model" className="w-full h-96 object-cover" />
+              <img src="/images/Fashion.JPEG" alt="Fashion Model"  className="w-full h-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-125"  />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
-              <span className="absolute bottom-4 left-4 text-xl font-bold">Fashion</span>
+              <span className="absolute bottom-4 left-4 text-xl ">Fashion</span>
             </div>
           </div>
         </section>

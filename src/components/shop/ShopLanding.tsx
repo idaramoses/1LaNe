@@ -20,11 +20,11 @@ export const ShopLanding: React.FC = () => {
           <div className="flex flex-col mt-11 w-full text-white md:mt-10 md:max-w-full">
             <div  data-aos="fade-up" data-aos-delay="300" className="leading-[162px] text-[171px]  md:max-w-full md:text-4xl md:leading-10 md:hidden">
               Shop <br />
-              1Lane
+              1LANE
             </div>
             <div  data-aos="fade-up" data-aos-delay="300" className="leading-[162px] text-center  md:w-full md:text-2xl md:leading-10 hidden md:block">
               Shop 
-              1Lane
+              1LANE
             </div>
             <div  data-aos="fade-left" data-aos-delay="500" className="mr-8 text-6xl text-center leading-none tracking-[5.7px] md:mr-2.5 md:w-full md:text-2xl">
               MERCHANDISE
@@ -45,11 +45,10 @@ export const ShopLanding: React.FC = () => {
         <div className="flex flex-col ml-5 w-4/12 md:ml-0 md:w-full">
           <div className="md:mt-10 md:w-full md:px-4">
           <img
-    data-aos="fade-zoomIn" data-aos-delay="800"
     loading="lazy"
-    src={'images/1LaNe merchandise.jpg'}
+    src={'images/shop-1.jpg'}
     alt={'shoping'}
-    className={`object-contain w-[495px] h-[495px] md:w-full `}
+    className="w-[495px] h-[495px] md:w-full object-cover transition-transform duration-500 ease-in-out transform group-hover:scale-125 object-top"
   />
           </div>
         </div>

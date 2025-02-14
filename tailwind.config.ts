@@ -24,6 +24,7 @@ export default {
 		extend: {
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif'],
+				micromrg: ['MicroMrg', 'sans-serif'],
 			  },
 			colors: {
 				border: 'hsl(var(--border))',
