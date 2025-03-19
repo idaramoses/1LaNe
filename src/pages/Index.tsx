@@ -24,7 +24,7 @@ const SLIDES = [
     title: "1 Lift artists 'N' empower",
     subtitle: "Kaey",
     description: "Kaey is a dynamic artist known for her genre-blending sound, powerful vocals, and authentic storytelling, capturing raw emotion through every lyric and melody she creates",
-    image: "/images/Kaey.JPG",
+    image: "/images/Kaey_cleanup.JPG",
     dimage: "/images/Kaey-d.jpeg",
     fansLink: "https://music.apple.com/ng/artist/kaey/1573794665"
   },
